@@ -4,7 +4,7 @@ Config = {
 	Debug = false, -- Toggle Debug Mode
 	Lan = "en",
 
-	img = "qb-inventory/html/images/", -- Set this to your inventory
+	img = "ps-inventory/html/images/", -- Set this to your inventory
 
 	Inv = "qb", -- set to "ox" if using OX Inventory
 	Menu = "qb",
@@ -20,7 +20,7 @@ Config = {
 	ScrapyardSearching = {
 		Enable = true,
 		searched = { }, -- No Touch
-		skillcheck = "qb-skillbar", --"qb-lock", "ps-ui", "qb-skillbar", "ox_lib", nil
+		skillcheck = "ps-ui", --"qb-lock", "ps-ui", "qb-skillbar", "ox_lib", nil
 		models = { -- The mighty list of dumpters/trash cans
 			`prop_wreckedcart`, `prop_snow_rub_trukwreck_2`, `prop_wrecked_buzzard`, `prop_rub_buswreck_01`, `prop_rub_buswreck_03`, `prop_rub_buswreck_06`, `prop_rub_carwreck_10`,
 			`prop_rub_carwreck_11`, `prop_rub_carwreck_12`, `prop_rub_carwreck_13`, `prop_rub_carwreck_14`, `prop_rub_carwreck_15`, `prop_rub_carwreck_16`, `prop_rub_carwreck_17`,
